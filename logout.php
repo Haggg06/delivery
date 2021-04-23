@@ -1,0 +1,11 @@
+<?php
+session_start();
+if(isset($_POST['logout'])){
+header("location:hotel_login.php");
+session_destroy();
+}
+if(isset($_POST['userlogout'])){
+header("location:login.php");
+session_destroy();
+}
+?>
