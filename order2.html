@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>online food delivery system</title>
+	<meta charset="utf-8">
+	<mata name="description">
+		<style>
+			input[type=checkbox] + label{
+				display:block;
+				margin: 0.2em;
+				cursor: pointer;
+				padding: 0.2em;
+			}
+			input[type=checkbox]{
+				display:none;
+			}
+			input[type=checkbox] + label:before{
+				content: "\2714";
+				border: 0.1em solid #000;
+				border-radius: 0.2em;
+				display: inline-block;
+				width: 1em;
+				height: 1em;
+				padding-left: 0.2em;
+				padding-bottom: 0.3em;
+				margin-right: 0.2em;
+				vertical-align: bottom;
+				color: transparent;
+				transition: .2s;
+
+			}
+			input[type=checkbox] + label:active:before{
+				transform: scale(0);
+			}
+			input[type=checkbox]:checked + label:before{
+				background-color:mediumseagreen;
+				border-color: mediumseagreen;
+				color: #fff;
+			}
+
+			}
+		</style>
+</head>
+<body>
+	<center><img class="img" src="my/bug1.jpg" height="200 "></center>
+<center><h1>size(choose one)</h1>
+	<div class=me>
+	<input type="radio" name="size" id="small"/> 
+	<label for="small">small</label> 
+	<input type="radio" name="size" id="large"/>
+	<label for="large">large</label>
+	<input type="radio" name="size" id="medium" />
+    <label for="medium">medium</label>
+ </div>
+	<h1>Ingredient</h1>
+	<input type="checkbox" id="Tomato" name="Tomato" value="Tomato"> 
+	<label for="Tomato">Tomato</label> 
+	<input type="checkbox" id="Cheese" name="Cheese" value="Cheese">
+	<label for="Cheese">Cheese</label>
+	<input type="checkbox" id="Cutlet" name="Cutlet" value="Cutlet">
+	<label for="Cutlet">Cutlet</label>
+	<input type="checkbox" id="Onion" name="Onion" value="Onion">
+	<label for="Onion">Onion</label>
+	<input type="checkbox" id="Egg" name="Egg" value="Egg">
+	<label for="Egg">Egg</label>
+	<h1>Special Instruction</h1>
+	<p><textarea name="" id="" cols="30" rows="5" placeholder="Add any Special Instruction."></textarea> ></p>
+	<input type="submit" name="">
+</center>
+</body>
+</html>
