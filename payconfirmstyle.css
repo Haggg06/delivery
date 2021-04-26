@@ -1,0 +1,14 @@
+body{
+	background-image:url(photo-1571091718767-18b5b1457add.jpg);
+}
+.container{
+	width: 50%;
+	margin: auto;
+}
+.box-1{
+	background-color:#686868;
+	border: 5px red solid;
+	padding: 80px;
+	margin-top: 200px;
+
+}
