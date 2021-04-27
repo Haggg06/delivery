@@ -2,10 +2,16 @@
 
 <html lang="en" dir="ltr">
   <head>
-    <a href="payconfirm.html">go</a>
+    <a href="payconfirm.html">return</a>
     <meta charset="utf-8">
     <title>delivery</title>
     <link rel="stylesheet" type="text/css" href="paystyle.css">
+    <style>
+      .wrapper > div{
+        background: #eee
+        padding:1em;
+      }
+    </style>
   </head>
   <body >
     <div class="container">
@@ -14,6 +20,12 @@
       <input  type="text" name="amount" placeholder="enter amount to be paid">
       <input type="submit" name="pay" value="pay">
     </form>
+    <div class="wrapper">
+      <div>
+      make sure you input the amount based on your current balance otherwise transactions won't be done!
+    </div>
+    </div>
+  </div>
      </div>
    </div>
   </body>

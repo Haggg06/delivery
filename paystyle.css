@@ -14,3 +14,7 @@ body{
 	padding: 80px;
     margin-top:200px;
 }
+.box-2{
+	grid-column: 3;
+	grid-row: 1/3;
+}
